@@ -2,7 +2,8 @@
   "pages": {
     "home": "Home",
     "menu": "Menu",
-    "review": "Review"
+    "review": "Review",
+    "blog": "Blog"
   },
   "button": {
     "submit": "Submit",
@@ -13,7 +14,7 @@
     "delete": "Delete",
     "save": "Save",
     "close": "Close",
-    "reservation": "Reservation",
+    "reservation": "Reserve now",
     "booking": "Book",
     "validate": "Validate",
     "authenticate": "Authenticate",

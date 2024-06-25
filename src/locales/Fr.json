@@ -2,7 +2,8 @@
   "pages": {
     "home": "Accueil",
     "menu": "Menu",
-    "review": "Avis"
+    "review": "Avis",
+    "blog": "Blog"
   },
   "button": {
     "submit": "Soumettre",
@@ -13,7 +14,7 @@
     "delete": "Supprimer",
     "save": "Enregistrer",
     "close": "Fermer",
-    "reservation": "Réservation",
+    "reservation": "Réservez maintenant",
     "booking": "Réserver",
     "validate": "Valider",
     "authenticate": "S'identifier",

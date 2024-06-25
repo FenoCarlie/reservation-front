@@ -62,12 +62,15 @@ function NavBar({ setSideMenuIsOpen }) {
   });
 
   return (
-    <ul className="flex xl:flex-row md:flex-row flex-col md:w-[15vw]  justify-between">
+    <ul className="flex xl:flex-row lg:flex-row flex-col lg:w-[20vw]  justify-between">
       <a href="#home" className="font-barlow text-lg link">
         {translate(`pages.home`)}
       </a>
       <a href="#menu" className="font-barlow text-lg link md:mt-0 mt-4">
         {translate(`pages.menu`)}
+      </a>
+      <a href="#blog" className="font-barlow text-lg link md:mt-0 mt-4">
+        {translate(`pages.blog`)}
       </a>
       <a href="#review" className="font-barlow text-lg link md:mt-0 mt-4">
         {translate(`pages.review`)}

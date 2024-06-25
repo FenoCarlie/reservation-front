@@ -59,17 +59,17 @@ function Header() {
       id="header"
       className="w-full h-14 xl:px-28 lg:px-24 md:px-16 px-10 flex flex-row justify-between items-center headerOnTop "
     >
-      <span className="hidden md:flex font-northwell text-4xl mt-4 ">
+      <span className="hidden lg:flex font-northwell text-4xl mt-4 ">
         Les Saveurs Enchantées
       </span>
-      <button className="flex md:hidden" onClick={sideMenuAction}>
+      <button className="flex lg:hidden" onClick={sideMenuAction}>
         {!sideMenuIsOpen ? (
           <RiMenu2Fill className="w-8 h-8" />
         ) : (
           <RiCloseLargeFill className="w-8 h-8" />
         )}
       </button>
-      <section className="md:flex hidden">
+      <section className="lg:flex hidden">
         <NavBar />
       </section>
       <section className="flex flex-row items-center">
