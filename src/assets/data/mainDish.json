@@ -1,0 +1,27 @@
+[
+  {
+    "nom": "Filet Mignon au Poivre",
+    "description": "Filet mignon de porc grillé, sauce au poivre vert, accompagné de pommes de terre fondantes",
+    "prix": 28.5
+  },
+  {
+    "nom": "Burger du Chef",
+    "description": "Burger gourmet avec steak haché de boeuf, cheddar fondu, bacon croustillant et sauce maison",
+    "prix": 16.75
+  },
+  {
+    "nom": "Plat Végétarien Méditerranéen",
+    "description": "Assiette généreuse de légumes grillés, polenta crémeuse et sauce aux herbes fraîches",
+    "prix": 21.0
+  },
+  {
+    "nom": "Risotto aux Fruits de Mer",
+    "description": "Risotto crémeux aux fruits de mer frais, parfumé au safran et garni de crevettes sautées",
+    "prix": 32.0
+  },
+  {
+    "nom": "Tournedos Rossini",
+    "description": "Tournedos de boeuf grillé, foie gras poêlé, sauce au vin rouge et pommes Anna",
+    "prix": 36.5
+  }
+]

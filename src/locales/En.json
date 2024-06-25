@@ -1,0 +1,99 @@
+{
+  "pages": {
+    "home": "Home",
+    "menu": "Menu",
+    "review": "Review"
+  },
+  "button": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "next": "Next",
+    "prev": "Previous",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "close": "Close",
+    "reservation": "Reservation",
+    "booking": "Book",
+    "validate": "Validate",
+    "authenticate": "Authenticate",
+    "send": "Send"
+  },
+  "menu": {
+    "start": "Starter dish",
+    "main": "Main course",
+    "dessert": "Dessert"
+  },
+  "text": {
+    "place": "Choose the number of seats",
+    "date": "Select the date",
+    "hour": "Indicate the time",
+    "name": "Put your name",
+    "phone": "Put your phone number",
+    "mail": "Put your email address"
+  },
+  "month": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
+  },
+  "day": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "logic": {
+    "and": "and",
+    "or": "or"
+  },
+  "article": {
+    "at": "at",
+    "on": "on",
+    "in": "in"
+  },
+  "items": {
+    "table": "Table",
+    "date": "Date",
+    "time": "Time",
+    "information": "Information"
+  },
+  "information": {
+    "name": "Name",
+    "phone": "Contact",
+    "mail": "Email address",
+    "message": "Message",
+    "identification": "Identification",
+    "password": "Password",
+    "review": "Review",
+    "object": "Object"
+  },
+  "notification": {
+    "reservation": {
+      "succes": "Your reservation is well validated!",
+      "contactError": "The phone number or email is required.",
+      "nameError": "Please verify your name.",
+      "email": "Please verify your mail."
+    },
+    "unauthorized": {
+      "identification": "Please check your identification",
+      "password": "Please check your password"
+    },
+    "fieldEmpty": "Please fill in the fields",
+    "identificationEmpty": "Please enter your identification",
+    "passwordEmpty": "Please enter your password"
+  },
+  "message": "Contact us"
+}

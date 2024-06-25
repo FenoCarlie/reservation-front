@@ -1,0 +1,105 @@
+.custom-datepicker {
+  padding: 1rem;
+  position: relative;
+}
+
+.react-datepicker__header {
+  --tw-bg-opacity: 1;
+  border-bottom: 1px solid rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.react-datepicker__current-month {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  --tw-bg-opacity: 1;
+  color: #0a0a0a;
+  border-bottom: 1px solid;
+}
+
+.react-datepicker__aria-live {
+  display: none;
+}
+.react-datepicker__day {
+  position: relative;
+}
+.react-datepicker__day::before {
+  position: absolute;
+  content: " ";
+  bottom: 0;
+  width: 0;
+  --tw-bg-opacity: 1;
+  transition: all 0.5s;
+  border-bottom: 1px solid rgb(100 116 139 / var(--tw-bg-opacity));
+}
+.react-datepicker__day:hover::before {
+  width: 100%;
+}
+.react-datepicker__day--disabled:hover::before {
+  width: 0;
+}
+
+.react-datepicker__day-names,
+.react-datepicker__week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+/* Custom styles for navigation buttons */
+.react-datepicker__navigation {
+  top: auto;
+  bottom: 10px;
+  position: absolute;
+}
+
+.react-datepicker__day--disabled {
+  cursor: default;
+  color: #ccc;
+}
+
+.react-datepicker__navigation--previous {
+  left: 10px;
+}
+
+.react-datepicker__navigation--next {
+  right: 10px;
+}
+
+.react-datepicker__navigation--previous::before {
+  position: absolute;
+  content: " ";
+  bottom: 0;
+  width: 100%;
+  --tw-bg-opacity: 1;
+  transition: all 0.5s;
+  border-bottom: 1px solid rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.react-datepicker__navigation--next::before {
+  position: absolute;
+  content: " ";
+  bottom: 0;
+  width: 100%;
+  --tw-bg-opacity: 1;
+  transition: all 0.5s;
+  border-bottom: 1px solid rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.react-datepicker__month-container {
+  padding-bottom: 30px;
+}
+
+.react-datepicker__day,
+.react-datepicker__day-name {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.25rem;
+}

@@ -1,0 +1,20 @@
+.headerOnTop {
+  background: rgba(0, 0, 0, 0.363);
+  color: white;
+  transition: all 0.5s;
+}
+
+.headerOnScroll {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(19.5px);
+  -webkit-backdrop-filter: blur(19.5px);
+  color: black;
+  transition: all 0.5s;
+}
+.sideComponentBg {
+  background-color: rgba(255, 255, 255, 0.404);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(19.5px);
+  color: black;
+}

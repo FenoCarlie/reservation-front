@@ -1,0 +1,99 @@
+{
+  "pages": {
+    "home": "Accueil",
+    "menu": "Menu",
+    "review": "Avis"
+  },
+  "button": {
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "next": "Suivant",
+    "prev": "Précédent",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "save": "Enregistrer",
+    "close": "Fermer",
+    "reservation": "Réservation",
+    "booking": "Réserver",
+    "validate": "Valider",
+    "authenticate": "S'identifier",
+    "send": "Envoyer"
+  },
+  "menu": {
+    "start": "Plat d'entrée",
+    "main": "Plat de résistance",
+    "dessert": "Dessert"
+  },
+  "text": {
+    "place": "Choisissez le nombre de places",
+    "date": "Sélectionnez la date",
+    "hour": "Indiquez l'heure",
+    "name": "Entrez votre nom",
+    "phone": "Saisissez votre numéro de téléphone",
+    "mail": "Saisissez votre adresse e-mail"
+  },
+  "month": {
+    "january": "Janvier",
+    "february": "Février",
+    "march": "Mars",
+    "april": "Avril",
+    "may": "Mai",
+    "june": "Juin",
+    "july": "Juillet",
+    "august": "Août",
+    "september": "Septembre",
+    "october": "Octobre",
+    "november": "Novembre",
+    "december": "Décembre"
+  },
+  "day": {
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche"
+  },
+  "logic": {
+    "and": "et",
+    "or": "ou"
+  },
+  "article": {
+    "at": "à",
+    "on": "sur",
+    "in": "dans"
+  },
+  "items": {
+    "table": "Table",
+    "date": "Date",
+    "time": "Heure",
+    "information": "Information"
+  },
+  "information": {
+    "name": "Nom",
+    "phone": "Numéro de téléphone",
+    "mail": "Adresse mail",
+    "message": "Message",
+    "identification": "Identifiant",
+    "password": "Mot de passe",
+    "review": "Avis",
+    "object": "Objet"
+  },
+  "notification": {
+    "reservation": {
+      "succes": "Votre réservation est bien validée !",
+      "contactError": "Le numéro de téléphone ou l'e-mail est nécessaire",
+      "nameError": "Veuillez vérifier votre nom.",
+      "mailError": "Veuillez vérifier votre mail."
+    },
+    "unauthorized": {
+      "identification": "Veuillez vérifier votre identifiant",
+      "password": "Veuillez vérifier votre mot de passe"
+    },
+    "fieldEmpty": "Veuillez remplir les champs",
+    "identificationEmpty": "Veuillez remplir les champs",
+    "passwordEmpty": "Veuillez remplir les champs"
+  },
+  "message": "Nous contacter"
+}

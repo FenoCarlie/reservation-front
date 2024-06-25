@@ -1,0 +1,27 @@
+[
+  {
+    "nom": "Menu Gourmand du Jardin",
+    "description": "Dégustation de spécialités du terroir avec produits frais du marché",
+    "prix": 32.5
+  },
+  {
+    "nom": "Salade Méditerranéenne",
+    "description": "Salade composée avec tomates cerises, mozzarella di bufala, basilic frais et huile d'olive",
+    "prix": 14.75
+  },
+  {
+    "nom": "Plat Végétarien du Chef",
+    "description": "Assiette colorée de légumes rôtis, accompagnée de quinoa et sauce légère aux herbes",
+    "prix": 19.0
+  },
+  {
+    "nom": "Duo de Carpaccio",
+    "description": "Carpaccio de boeuf et de saumon mariné aux agrumes, servi avec toast croustillant",
+    "prix": 18.5
+  },
+  {
+    "nom": "Tarte Fine aux Champignons",
+    "description": "Tartelette croustillante aux champignons sautés et fines herbes, garnie de roquette",
+    "prix": 10.5
+  }
+]

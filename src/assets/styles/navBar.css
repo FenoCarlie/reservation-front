@@ -1,0 +1,18 @@
+.link {
+  position: relative;
+  max-width: fit-content;
+}
+
+.link::before {
+  position: absolute;
+  display: block;
+  content: " ";
+  width: 0;
+  bottom: 0;
+  transition: all 0.5s;
+}
+.link:hover::before {
+  --tw-bg-opacity: 1;
+  width: 100%;
+  border: 1px solid rgb(100 116 139 / var(--tw-bg-opacity));
+}

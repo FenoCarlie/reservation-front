@@ -1,0 +1,75 @@
+@import "./header.css";
+@import "./fonts.css";
+@import "./navBar.css";
+@import "./home.css";
+@import "./review.css";
+@import "./menu.css";
+@import "./calendar.css";
+@import "./notification.css";
+@import "./reviewsComponent.css";
+@import "./footer.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+.mainScrollBar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.mainScrollBar {
+  scrollbar-width: none; /* Firefox */
+  overflow: scroll;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#LoginLayout {
+  background: rgb(158, 158, 158);
+  background: radial-gradient(
+    circle,
+    rgba(158, 158, 158, 1) 0%,
+    rgba(74, 74, 74, 1) 100%
+  );
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-down {
+  animation: slideDown 0.5s ease-in-out;
+}

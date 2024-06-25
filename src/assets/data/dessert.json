@@ -1,0 +1,37 @@
+[
+  {
+    "nom": "Assiette de Fromages Affinés",
+    "description": "Sélection de fromages fins accompagnée de confiture maison et fruits secs",
+    "prix": 12.5
+  },
+  {
+    "nom": "Crêpes Suzette Flambées",
+    "description": "Crêpes légères flambées à l'orange, servies avec glace à la vanille et sauce caramel",
+    "prix": 9.25
+  },
+  {
+    "nom": "Pavlova aux Fruits Rouges",
+    "description": "Pavlova croustillante garnie de crème chantilly et fruits rouges frais",
+    "prix": 14.0
+  },
+  {
+    "nom": "Tarte Tatin Maison",
+    "description": "Tarte renversée aux pommes caramélisées, accompagnée de crème fouettée",
+    "prix": 8.5
+  },
+  {
+    "nom": "Assortiment de Mini-Desserts",
+    "description": "Plateau de mini-desserts variés pour découvrir différentes saveurs sucrées",
+    "prix": 18.0
+  },
+  {
+    "nom": "Tarte Tatin Maison",
+    "description": "Tarte renversée aux pommes caramélisées, accompagnée de crème fouettée",
+    "prix": 8.5
+  },
+  {
+    "nom": "Assortiment de Mini-Desserts",
+    "description": "Plateau de mini-desserts variés pour découvrir différentes saveurs sucrées",
+    "prix": 18.0
+  }
+]
