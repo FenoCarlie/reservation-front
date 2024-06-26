@@ -1,19 +1,11 @@
-# Node.js backend
-/backend/node_modules
-/backend/.env
-/backend/logs
-/backend/npm-debug.log*
-/backend/yarn-debug.log*
-/backend/yarn-error.log*
 
 # React frontend
-/frontend/node_modules
-/frontend/build
-/frontend/.env
-/frontend/.next
-/frontend/coverage
-/frontend/.cache
-/frontend/public/static
+node_modules
+build
+.env
+.next
+coverage
+.cache
 
 # Large files
 *.mp4

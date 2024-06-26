@@ -50,7 +50,7 @@ function Login() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center w-auto h-auto font-barlow bg-gray-800 p-14">
+    <div className="flex flex-col items-center justify-center w-auto h-auto font-barlow bg-gray-800 p-14 rounded-md">
       <h1 className="absolute top-48 text-white text-5xl font-northwell">
         Les Saveurs Enchantées
       </h1>
@@ -94,7 +94,7 @@ function Login() {
         </span>
         <button
           type="submit"
-          className="px-6 p-2 text-white text-md bg-slate-500 hover:bg-slate-600 rounded"
+          className="px-6 p-2 text-white text-md bg-[#9a2323] hover:bg-[#972b2b] rounded"
         >
           {translate(`button.validate`)}
         </button>

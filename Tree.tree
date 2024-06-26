@@ -1,0 +1,120 @@
+├── .env
+├── .env.exemple
+├── .eslintrc.cjs
+├── .gitignore
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── public
+│  └── logo.svg
+├── README.md
+├── src
+│  ├── assets
+│  │  ├── content
+│  │  ├── data
+│  │  │  ├── dessert.json
+│  │  │  ├── mainDish.json
+│  │  │  ├── picture.json
+│  │  │  ├── review.json
+│  │  │  └── starterDish.json
+│  │  ├── fonts
+│  │  │  ├── Barlow
+│  │  │  │  ├── Barlow-Bold.ttf
+│  │  │  │  └── Barlow-Regular.ttf
+│  │  │  ├── Northwell
+│  │  │  │  └── Northwell.ttf
+│  │  │  └── Tnor
+│  │  │    └── TenorSans-Regular.ttf
+│  │  ├── images
+│  │  │  ├── 1.jpg
+│  │  │  ├── 10.jpg
+│  │  │  ├── 11.jpg
+│  │  │  ├── 12.jpg
+│  │  │  ├── 13.jpg
+│  │  │  ├── 14.jpg
+│  │  │  ├── 15.jpg
+│  │  │  ├── 16.jpg
+│  │  │  ├── 2.jpg
+│  │  │  ├── 3.jpg
+│  │  │  ├── 4.jpg
+│  │  │  ├── 5.jpg
+│  │  │  ├── 6.jpg
+│  │  │  ├── 7.jpg
+│  │  │  ├── 8.jpg
+│  │  │  ├── 9.jpg
+│  │  │  ├── CountryFlag
+│  │  │  │  ├── CountryFlag.js
+│  │  │  │  ├── fr.svg
+│  │  │  │  └── gb.svg
+│  │  │  ├── homme-medecine-chirurgie-esthetique-dr-benouaiche-paris.jpg
+│  │  │  ├── image.js
+│  │  │  ├── pexels-valeriya-1199958.jpg
+│  │  │  ├── pexels-valeriya-1199960.jpg
+│  │  │  └── restaurants-terrace-with-black-green-awnings.jpg
+│  │  ├── styles
+│  │  │  ├── calendar.css
+│  │  │  ├── fonts.css
+│  │  │  ├── footer.css
+│  │  │  ├── header.css
+│  │  │  ├── home.css
+│  │  │  ├── index.css
+│  │  │  ├── menu.css
+│  │  │  ├── navBar.css
+│  │  │  ├── notification.css
+│  │  │  ├── review.css
+│  │  │  └── reviewsComponent.css
+│  │  └── video
+│  ├── components
+│  │  ├── common
+│  │  │  ├── Calendar.jsx
+│  │  │  ├── Modal.jsx
+│  │  │  ├── Notification.jsx
+│  │  │  └── StarRating.jsx
+│  │  └── specific
+│  │    ├── adminLayout
+│  │    │  ├── Header.jsx
+│  │    │  └── SideBar.jsx
+│  │    ├── Footer.jsx
+│  │    ├── Header.jsx
+│  │    ├── InteractiveStarRating.jsx
+│  │    ├── LanguageSwitcher.jsx
+│  │    ├── MenuTabs.jsx
+│  │    ├── Message.jsx
+│  │    ├── NavBar.jsx
+│  │    ├── PhotoGrid.jsx
+│  │    ├── PostReview.jsx
+│  │    ├── Reservation.jsx
+│  │    ├── ReservationStepper.jsx
+│  │    ├── ReviewAnimated.jsx
+│  │    └── ReviewsComponent.jsx
+│  ├── contexts
+│  │  ├── AuthentContext.jsx
+│  │  ├── LanguageContext.jsx
+│  │  └── NotificationContext.jsx
+│  ├── hooks
+│  ├── layouts
+│  │  ├── AdminLayout.jsx
+│  │  ├── DefaultLayout.jsx
+│  │  └── LoginLayout.jsx
+│  ├── locales
+│  │  ├── En.json
+│  │  └── Fr.json
+│  ├── main.jsx
+│  ├── pages
+│  │  ├── adminLayout
+│  │  │  └── DashBoard.jsx
+│  │  ├── defaultLayout
+│  │  │  ├── Blog.jsx
+│  │  │  ├── Home.jsx
+│  │  │  ├── Menu.jsx
+│  │  │  └── Reviews.jsx
+│  │  ├── LoginLayout
+│  │  │  └── Login.jsx
+│  │  └── NotFundPage.jsx
+│  ├── router.jsx
+│  ├── services
+│  └── utils
+├── tailwind.config.js
+├── Tree.tree
+└── vite.config.js
